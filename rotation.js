@@ -1,4 +1,4 @@
-export function drawRotation(r,...arr){
+export default function drawRotation(r,...arr){
     ctx.save()
     ctx.translate(300,300)
     ctx.rotate(d)
